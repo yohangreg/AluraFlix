@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+body {
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-image: url('https://data.1freewallpapers.com/download/neon-ultrawide-grid-4k-vaporwave.jpg');
+  background-color: #000000;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+
+}
+
+.page-title {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-family: 'Play', sans-serif;
+  text-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  margin: center;
+  width: 200px;
+  margin-left: 0.5rem;
+  margin-top: 6px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+#nome {
+  color: #fff;
+  text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Averia Serif Libre', cursive;
+  margin: 0 20px
+  
+}
+
+#imagem {
+  display: inline-table;
+  background-size: cover;
+  background-position: center;
+}
+
+body img {
+  margin: 10px 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+body img:hover {
+  -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+ box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
